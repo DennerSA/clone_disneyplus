@@ -291,23 +291,50 @@
     </section>
 
     <footer class="footer">
-      <img src="./dist/images/disneyplus.svg" alt="Disney+">
-      <ul class="footer__links">
-        <li class="footer__links__item"><a href="#" class="link-text">Termos
-            de
-            uso</a></li>
-        <li class="footer__links__item"><a href="#" class="link-text">Política
-            de
-            privacidade</a></li>
-        <li class="footer__links__item"><a href="#" class="link-text">Avisos
-            legais</a></li>
-        <li class="footer__links__item"><a href="#" class="link-text">Centro
-            de
-            ajuda</a></li>
-        <li class="footer__links__item"><a href="#" class="link-text">Sobre
-            nós</a></li>
-      </footer>
+      <div class="footer__container">
+        <img class="footer__logo" src="./dist/images/disneyplus.svg"
+          alt="Disney+">
+        <ul class="footer__links">
+          <li class="footer__links__item">
+            <div class="language-selector">
+              <img src="./dist/images/icones/globe.svg" alt="Globo">
+              <select>
+                <option>English</option>
+                <option selected>Português</option>
+              </select>
+            </div>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="text--small">Termos de uso</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="text--small">Política de privacidade</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="text--small">Avisos legais</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="text--small">Centro de ajuda</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="text--small">Sobre nós</a>
+          </li>
+        </ul>
+        <p class="text--small">
+          © 2026 Disney e suas empresas afiliadas. Todos os
+          direitos reservados.
+        </p>
+        <p class="text--small">
+          Para usar o Disney+, é necessário ser assinante e ter mais de 18 anos
+          de idade. Conteúdo sujeito a disponibilidade.
+          O serviço Disney+ é comercializado por The Walt Disney Company
+          (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551,
+          12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M
+          73.042.962/0004-20</p>
+      </div>
 
-      <script src="./src/main.js"></script>
-    </body>
-  </html>
+    </footer>
+
+    <script src="./src/main.js"></script>
+  </body>
+</html>
